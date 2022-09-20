@@ -1,0 +1,45 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int calday1, calday2, calday3, calday4, calday5, calday6, calday7;
+    int calburnweek;
+
+    cout << "Enter Calories Day 1:";
+    cin >> calday1;
+    cout << endl;
+
+    cout << "Enter Calories Day 2: ";
+    cin >> calday2;
+    cout << endl;
+
+    cout << "Enter Calories Day 3: ";
+    cin >> calday3;
+    cout << endl;
+
+    cout << "Enter Calories Day 4: ";
+    cin >> calday4;
+    cout << endl;
+
+    cout << "Enter Calories Day 5: ";
+    cin >> calday5;
+    cout << endl;
+
+    cout << "Enter Calories Day 6: ";
+    cin >> calday6;
+    cout << endl;
+
+    cout << "Enter Calories Day 7: ";
+    cin >> calday7;
+    cout <<endl;
+
+    calburnweek = calday1 + calday2 + calday3 + calday4 + calday5 + calday6 + calday7;
+
+    cout << "Average number of calories burned each day: "
+        <<calburnweek / 7 << endl;
+
+
+    return 0;
+}
